@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+@import '../../frontendWeb/src/styles/global-color';
+@import '../../frontendWeb/src/styles/global-font';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
