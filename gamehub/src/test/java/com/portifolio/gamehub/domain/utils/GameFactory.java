@@ -15,7 +15,7 @@ public class GameFactory {
         Game game = new Game();
         game.setId(1L);
         game.setName("Test Game");
-        game.setReview("This is a test game review.");
+        game.setReview("This is a test game review");
         game.setGrade(new BigDecimal("9.5"));
         game.setReleaseDate(Instant.now());
         game.setArtUrl("http://example.com/art.png");
