@@ -1,5 +1,6 @@
 package com.portifolio.gamehub.domain.utils;
 
+import com.portifolio.gamehub.api.model.dto.GameDTO;
 import com.portifolio.gamehub.domain.entities.Game;
 import com.portifolio.gamehub.domain.entities.Genre;
 import com.portifolio.gamehub.domain.entities.Platform;
@@ -29,5 +30,11 @@ public class GameFactory {
         game.setPlatforms(platforms);
 
         return game;
+    }
+
+    public static GameDTO createGameDTO() {
+        Game games = createGame();
+
+        return new GameDTO(games, games.getGenres());
     }
 }
