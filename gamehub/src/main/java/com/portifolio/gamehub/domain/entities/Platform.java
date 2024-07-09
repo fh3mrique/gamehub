@@ -15,7 +15,8 @@ public class Platform {
 
     }
 
-    public Platform(String platformName) {
+    public Platform(Long id, String platformName) {
+        this.id = id;
         this.platformName = platformName;
     }
 
