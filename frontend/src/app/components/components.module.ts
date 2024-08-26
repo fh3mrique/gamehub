@@ -1,15 +1,18 @@
 import { NgModule } from "@angular/core";
 import { PipesModule } from "../pipes/pipes.module";
 import { AngularMaterialModule } from "../angular-material/angular-material.module";
+import { HeaderComponent } from './header/header.component';
 
 
 @NgModule({
-    declarations: [],
+    declarations: [
+    HeaderComponent
+  ],
     imports: [
        PipesModule,
        AngularMaterialModule
     ],
-    exports: [],
+    exports: [HeaderComponent],
 })
 export class ComponentsModule {
 
