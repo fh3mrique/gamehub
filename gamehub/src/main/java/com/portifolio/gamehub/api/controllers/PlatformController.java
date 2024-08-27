@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-@RequestMapping(value = "platform")
+@RequestMapping(value = "platforms")
 @RestController
 @CrossOrigin(origins = "*")
 public class PlatformController {
