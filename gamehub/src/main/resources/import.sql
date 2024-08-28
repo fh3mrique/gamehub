@@ -14,11 +14,11 @@ INSERT INTO tb_genre (genre_name) VALUES ('Horror');
 INSERT INTO tb_genre (genre_name) VALUES ('Puzzle');
 INSERT INTO tb_genre (genre_name) VALUES ('Simulation');
 
-INSERT INTO tb_game (name, review, grade, release_date, art_url) VALUES ('The Legend of Zelda: Breath of the Wild', 'Revolutionized open-world gameplay.', 9.5, '2017-03-03T00:00:00Z', 'url/to/art1');
-INSERT INTO tb_game (name, review, grade, release_date, art_url) VALUES ('The Witcher 3: Wild Hunt', 'Immersive story and expansive world.', 9.3, '2015-05-19T00:00:00Z', 'url/to/art2');
-INSERT INTO tb_game (name, review, grade, release_date, art_url) VALUES ('Red Dead Redemption 2', 'Detailed open-world western adventure.', 9.7, '2018-10-26T00:00:00Z', 'url/to/art3');
-INSERT INTO tb_game (name, review, grade, release_date, art_url) VALUES ('Dark Souls III', 'Challenging gameplay with deep lore.', 8.9, '2016-04-12T00:00:00Z', 'url/to/art4');
-INSERT INTO tb_game (name, review, grade, release_date, art_url) VALUES ('Persona 5', 'Compelling story with stylish visuals.', 9.2, '2017-09-15T00:00:00Z', 'url/to/art5');
+INSERT INTO tb_game (name, review, grade, release_date, art_url) VALUES ('The Legend of Zelda: Breath of the Wild', 'Revolutionized open-world gameplay.', 9.5, '2017-03-03T00:00:00Z', 'https://img.elo7.com.br/product/zoom/49495EB/quadro-decorativo-games-resident-evil-4-remake-games.jpg');
+INSERT INTO tb_game (name, review, grade, release_date, art_url) VALUES ('The Witcher 3: Wild Hunt', 'Immersive story and expansive world.', 9.3, '2015-05-19T00:00:00Z', 'https://img.elo7.com.br/product/zoom/49495EB/quadro-decorativo-games-resident-evil-4-remake-games.jpg');
+INSERT INTO tb_game (name, review, grade, release_date, art_url) VALUES ('Red Dead Redemption 2', 'Detailed open-world western adventure.', 9.7, '2018-10-26T00:00:00Z', 'https://img.elo7.com.br/product/zoom/49495EB/quadro-decorativo-games-resident-evil-4-remake-games.jpg');
+INSERT INTO tb_game (name, review, grade, release_date, art_url) VALUES ('Dark Souls III', 'Challenging gameplay with deep lore.', 8.9, '2016-04-12T00:00:00Z', 'https://img.elo7.com.br/product/zoom/49495EB/quadro-decorativo-games-resident-evil-4-remake-games.jpg');
+INSERT INTO tb_game (name, review, grade, release_date, art_url) VALUES ('Persona 5', 'Compelling story with stylish visuals.', 9.2, '2017-09-15T00:00:00Z', 'https://img.elo7.com.br/product/zoom/49495EB/quadro-decorativo-games-resident-evil-4-remake-games.jpg');
 
 -- The Legend of Zelda: Breath of the Wild (id = 1)
 INSERT INTO game_genre (game_id, genre_id) VALUES (1, 1);
